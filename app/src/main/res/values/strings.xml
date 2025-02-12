@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Insider-Java-Demo</string>
+    <string name="title_text">Insider SDK Demo(Java)</string>
+    <string name="desc_text">This Demo contains simple methods that you can use with the Insider SDK.</string>
+</resources>
