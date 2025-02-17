@@ -12,4 +12,5 @@ Check the changelogs 👉 [here](https://academy.useinsider.com/docs/android-sdk
 5. Replace the [applicationId](https://github.com/useinsider/Java-Demo/blob/main/app/build.gradle.kts#L14) with the one in your google-service.json file
 
 
-![Java Demp](https://github.com/user-attachments/assets/7a9dba02-3126-480f-a8e0-65749d3ba0d6)
+
+![Java Demo](https://github.com/user-attachments/assets/4ab3f0cd-f629-4c15-8d94-90f702552024)
