@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private Button userAttributesButton;
     private Button loginButton;
     private Button logoutButton;
+    private Button signupButton;
     private Button reinitPartnerNameButton;
     private Button triggerEventButton;
     private Button createProductButton;
@@ -78,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         userAttributesButton = findViewById(R.id.userAttributesButton);
         loginButton = findViewById(R.id.loginButton);
         logoutButton = findViewById(R.id.logoutButton);
+        signupButton = findViewById(R.id.signupButton);
         reinitPartnerNameButton = findViewById(R.id.reinitPartnerNameButton);
         triggerEventButton = findViewById(R.id.triggerEventButton);
         createProductButton = findViewById(R.id.createProductButton);
@@ -143,7 +145,6 @@ public class MainActivity extends AppCompatActivity {
                 Insider.Instance.getCurrentUser().setCustomAttributeWithArray("key", arr);
                 Insider.Instance.getCurrentUser().unsetCustomAttribute("key");
 
-                Insider.Instance.signUpConfirmation();
             }
         });
 
@@ -161,6 +162,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        signupButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Insider.Instance.signUpConfirmation();
+            }
+        });
         reinitPartnerNameButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
