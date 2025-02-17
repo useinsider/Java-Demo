@@ -13,7 +13,8 @@ Check the changelogs 👉 [here](https://academy.useinsider.com/docs/android-sdk
 
 ## Preview
 
-https://github.com/user-attachments/assets/7a54e044-d713-4d4d-924f-f4a57cd50eb3
+![Java Demo](https://github.com/user-attachments/assets/d8033362-e8a1-4e12-8003-8923b849f703)
+
 
 
 
