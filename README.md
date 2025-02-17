@@ -11,6 +11,10 @@ Check the changelogs 👉 [here](https://academy.useinsider.com/docs/android-sdk
 4. Change the agconnect-services.json file with yours(if you are using huawei messaging service)
 5. Replace the [applicationId](https://github.com/useinsider/Java-Demo/blob/main/app/build.gradle.kts#L14) with the one in your google-service.json file
 
+## Preview
+
+https://github.com/user-attachments/assets/7a54e044-d713-4d4d-924f-f4a57cd50eb3
 
 
-![Java Demo](https://github.com/user-attachments/assets/4ab3f0cd-f629-4c15-8d94-90f702552024)
+
+
