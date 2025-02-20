@@ -336,5 +336,3 @@ agconnect-services.json
 app/agconnect-services.json
 android/app/agconnect-services.json
 
-# Secrets & Credentials
-gradle.properties

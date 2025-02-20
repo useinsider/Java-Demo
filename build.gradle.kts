@@ -7,6 +7,6 @@ plugins {
 
 buildscript {
     dependencies {
-        classpath("com.huawei.agconnect:agcp:1.9.1.300") // 🔥 AGConnect Plugin classpath olarak eklendi
+        classpath("com.huawei.agconnect:agcp:1.9.1.300")
     }
 }
